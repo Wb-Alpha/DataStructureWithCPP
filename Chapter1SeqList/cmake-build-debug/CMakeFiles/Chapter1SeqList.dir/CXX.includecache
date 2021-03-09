@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++ Code/DataStructure/Chapter1SeqList/LinkList.h
+stdlib.h
+D:/C++ Code/DataStructure/Chapter1SeqList/stdlib.h
+cstdlib
+-
+
+D:/C++ Code/DataStructure/Chapter1SeqList/SeqList.h
+stdlib.h
+D:/C++ Code/DataStructure/Chapter1SeqList/stdlib.h
+cmath
+D:/C++ Code/DataStructure/Chapter1SeqList/cmath
+clocale
+-
+
+D:/C++ Code/DataStructure/Chapter1SeqList/main.cpp
+iostream
+-
+cstdlib
+D:/C++ Code/DataStructure/Chapter1SeqList/cstdlib
+ctime
+-
+SeqList.h
+D:/C++ Code/DataStructure/Chapter1SeqList/SeqList.h
+LinkList.h
+D:/C++ Code/DataStructure/Chapter1SeqList/LinkList.h
+

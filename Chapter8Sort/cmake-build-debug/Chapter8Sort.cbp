@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter8Sort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter8Sort">
+				<Option output="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug/Chapter8Sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 Chapter8Sort"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter8Sort/fast">
+				<Option output="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug/Chapter8Sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 Chapter8Sort/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/C++ Code/DataStructure/Chapter8Sort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter8Sort\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/C++ Code/DataStructure/Chapter8Sort/Sort.h">
+			<Option target="Chapter8Sort"/>
+		</Unit>
+		<Unit filename="D:/C++ Code/DataStructure/Chapter8Sort/main.cpp">
+			<Option target="Chapter8Sort"/>
+		</Unit>
+		<Unit filename="D:/C++ Code/DataStructure/Chapter8Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

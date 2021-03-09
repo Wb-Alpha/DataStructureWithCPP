@@ -1,0 +1,4 @@
+"D:\CLion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug

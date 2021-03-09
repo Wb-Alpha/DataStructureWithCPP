@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++ Code/DataStructure/Chapter8Sort/Sort.h
+
+D:/C++ Code/DataStructure/Chapter8Sort/main.cpp
+iostream
+-
+Sort.h
+D:/C++ Code/DataStructure/Chapter8Sort/Sort.h
+
