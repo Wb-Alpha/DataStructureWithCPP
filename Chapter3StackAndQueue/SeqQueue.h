@@ -46,5 +46,5 @@ bool deQueue(SeqQueue &q, int &x){
 
 // 求长度
 int length(SeqQueue q){
-    return (q.rear+MaxSize-front);
+    return (q.rear+MaxSize-q.front);
 }

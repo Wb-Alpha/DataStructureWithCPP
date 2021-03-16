@@ -54,39 +54,19 @@
 
 int main()
 {
-//    srand((int)time(0));
-//    for (int i = 0; i < 10; i++)
-//    {
-//        std::cout << rand()%100<< " ";
-//    }
-    LinkList l;
-    createListWithTailInsert(l, 10,1000);
-    showLinkList(l);
-    std::cout<<"\n";
-    LinkList a,b;
+    LinkList l,a,b;
+    initListWithHeader(l);
     initListWithHeader(a);
     initListWithHeader(b);
-    separateLinkLink2(l,a,b);
+    int list_a[] = {12,54,72,86,97,264,735,828};
+    int list_b[] = {23,53,57,85,154,375,678,792};
+    createListWithTuple(a, list_a);
+    createListWithTuple(b, list_b);
     showLinkList(a);
-    std:cout<<"\n";
+    std::cout<<"\n";
     showLinkList(b);
-//    deleteNodeInRange(l, 100, 300);
-//    sortLinkListIncremental(l);
-//    showLinkList(l);
-//    deleteMin(l);
-//    showLinkList(reverseLinkListOnTheSpot(l));
-//    reverseOutputLinkList(l);
-//    deleteAllXInLinkListWithRecursion1(l, 5);
-//    deleteAllXInLinkList(l, 5);
-//    showLinkList(l);
-
-//    deleteTheSameAbsValuesNode(l, 10);
-//    splitLinkList(l);
-//    sortLinkList(l);
-//    showLinkList(l);
-//    deleteAllXinList1(l,2);
-//    deleteAllXinList2(l, 3);
-//    reverseLinkList(l);
-//    showLinkList(l);
+    std::cout<<"\n";
+    mergeTwoIncreaseListIntoOne(l,a,b);
+    showLinkList(l);
     return 0;
 }

@@ -1,0 +1,3 @@
+/Users/coding/DataStructureWithCPP/Chapter4String/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/coding/DataStructureWithCPP/Chapter4String/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/coding/DataStructureWithCPP/Chapter4String/cmake-build-debug/CMakeFiles/Chapter4String.dir

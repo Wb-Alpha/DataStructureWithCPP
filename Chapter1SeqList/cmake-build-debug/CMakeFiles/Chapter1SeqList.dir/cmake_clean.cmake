@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter1SeqList.dir/main.cpp.obj"
-  "Chapter1SeqList.exe"
-  "Chapter1SeqList.exe.manifest"
-  "Chapter1SeqList.lib"
+  "CMakeFiles/Chapter1SeqList.dir/main.cpp.o"
+  "Chapter1SeqList"
   "Chapter1SeqList.pdb"
 )
 

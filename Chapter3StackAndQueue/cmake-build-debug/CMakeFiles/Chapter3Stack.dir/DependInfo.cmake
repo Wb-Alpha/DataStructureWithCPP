@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++ Code/DataStructure/Chapter3StackAndQueue/main.cpp" "D:/C++ Code/DataStructure/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/main.cpp.obj"
+  "/Users/coding/DataStructureWithCPP/Chapter3StackAndQueue/main.cpp" "/Users/coding/DataStructureWithCPP/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

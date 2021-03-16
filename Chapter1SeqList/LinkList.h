@@ -14,6 +14,40 @@ bool initListWithoutHeader(LinkList &l){
     return true;
 }
 
+// 创建一个递增的序列
+void createIncreaseLinkList(LinkList &l, int size, int maxStep){
+    l = (LinkList)malloc(sizeof (LinkList));
+    l->next = NULL;
+    srand((unsigned)time(NULL));
+    LNode *p = l, *s;
+    for (int i=0; i<size; i++){
+        int x = rand()%maxStep;
+        s = (LNode*)malloc(sizeof(LNode));
+        if (p==l){
+            s->data = x;
+        }
+        else{
+            s->data = x+p->data;
+        }
+        s->next = NULL;
+        p->next = s;
+        p = p->next;
+    }
+}
+
+// 导入数组以创建链表
+void createListWithTuple(LinkList &l, int data[]){
+    int length = sizeof(data);
+    LNode *p = l;
+    for (int i = 0; i < length; i++){
+        LNode *n = (LNode*)malloc(sizeof(LNode));
+        n->data = data[i];
+        n->next = NULL;
+        p->next = n;
+        p = p->next;
+    }
+}
+
 // 尾插法建立单链表
 LinkList createListWithTailInsert(LinkList &l, int size, int range){
     if (size <= 0){
@@ -438,3 +472,40 @@ void deleteSameNodeInIncreaseLinkList(LinkList &l){
         }
     }
 }
+
+
+// 13.有两个元素大小递增的链表，将其合并为一个递减的链表
+void mergeTwoIncreaseListIntoOne(LinkList &l, LinkList a, LinkList b){
+    LNode *ap=a->next, *bp=b->next;
+    do{
+        if (ap==NULL){
+            LNode *n = bp;
+            n->next = l->next;
+            l->next = n;
+            bp = bp->next;
+        }
+        else if(bp==NULL){
+            LNode *n = ap;
+            n->next = l->next;
+            l->next = n;
+            ap = ap->next;
+        }
+        else{
+            LNode *n;
+            if (ap->data > bp->data){
+                n->data = bp->data;
+                n->next = l->next;
+                l->next = n;
+                bp = bp->next;
+            }
+            else{
+                n->data = ap->data;
+                n->next = l->next;
+                l->next = n;
+                ap = ap->next;
+            }
+        }
+    }while(ap==NULL && bp==NULL);
+}
+
+

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter3Stack.dir/main.cpp.obj"
-  "Chapter3Stack.exe"
-  "Chapter3Stack.exe.manifest"
-  "Chapter3Stack.lib"
+  "CMakeFiles/Chapter3Stack.dir/main.cpp.o"
+  "Chapter3Stack"
   "Chapter3Stack.pdb"
 )
 
