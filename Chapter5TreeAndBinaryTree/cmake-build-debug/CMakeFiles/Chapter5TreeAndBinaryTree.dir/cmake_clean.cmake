@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter5TreeAndBinaryTree.dir/main.cpp.obj"
-  "Chapter5TreeAndBinaryTree.exe"
-  "Chapter5TreeAndBinaryTree.exe.manifest"
-  "Chapter5TreeAndBinaryTree.lib"
+  "CMakeFiles/Chapter5TreeAndBinaryTree.dir/main.cpp.o"
+  "Chapter5TreeAndBinaryTree"
   "Chapter5TreeAndBinaryTree.pdb"
 )
 

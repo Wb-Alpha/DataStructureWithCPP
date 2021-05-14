@@ -509,3 +509,35 @@ void mergeTwoIncreaseListIntoOne(LinkList &l, LinkList a, LinkList b){
 }
 
 
+// 14.将两个递增链表中的公共元素提取出来形成新的链表（不破环原来链表
+void createListWithPublicNodeInTwoList(LinkList a, LinkList b, LinkList &t){
+    LNode *ap = a->next, *bp = b->next, *tp=t;
+    while (true){
+        if (ap == NULL || bp == NULL){
+            break;
+        }
+        if (ap->data > bp->data){
+            bp = bp->next;
+        }else if(ap->data < bp->data){
+            ap = ap->next;
+        }else if (ap->data == bp->data){
+            LNode *temp = (LNode*)malloc(sizeof (LNode));
+            temp->data = ap->data;
+            temp->next = NULL;
+            tp->next = temp;
+            tp = tp->next;
+            ap = ap->next;
+            bp = bp->next;
+        }
+    }
+}
+
+
+
+void test(){
+    int n = 0;
+    do{
+        std::cout<<++n<<std::endl;
+    }while(n<10);
+}
+

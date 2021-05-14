@@ -64,3 +64,21 @@ void showDLinkList(DLinkList &l){
         l = l->next;
     }
 }
+
+// 16.设计一个算法测试带头节点带双链表是否对称
+void checkSymmetry(DLinkList l){
+    DNode *tail = l->prior;
+    DNode *head = l->next;
+    bool isSymmetry = false;
+    while (head != tail){
+        if (head->data != tail->data){
+            break;
+        }
+        head = head->next;
+        tail = tail->prior;
+        if (head == tail){
+            isSymmetry = true;
+            break;
+        }
+    }
+}

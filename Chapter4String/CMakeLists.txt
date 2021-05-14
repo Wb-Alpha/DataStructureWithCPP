@@ -3,4 +3,4 @@ project(Chapter4String)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Chapter4String main.cpp)
+add_executable(Chapter4String main.cpp SeqString.h LinkString.h)

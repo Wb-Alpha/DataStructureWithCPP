@@ -4,85 +4,87 @@
 	<Project>
 		<Option title="Chapter5TreeAndBinaryTree"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
+				<Option working_dir="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Chapter5TreeAndBinaryTree">
-				<Option output="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug/Chapter5TreeAndBinaryTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 Chapter5TreeAndBinaryTree"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Chapter5TreeAndBinaryTree/fast">
-				<Option output="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug/Chapter5TreeAndBinaryTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 Chapter5TreeAndBinaryTree/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
+				<Option working_dir="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\C++ Code\DataStructure\Chapter5TreeAndBinaryTree\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter5TreeAndBinaryTree">
+				<Option output="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Chapter5TreeAndBinaryTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter5TreeAndBinaryTree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter5TreeAndBinaryTree/fast">
+				<Option output="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Chapter5TreeAndBinaryTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter5TreeAndBinaryTree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/BinaryTree.h">
+		<Unit filename="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/BinaryTree.h">
 			<Option target="Chapter5TreeAndBinaryTree"/>
 		</Unit>
-		<Unit filename="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/main.cpp">
+		<Unit filename="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/main.cpp">
 			<Option target="Chapter5TreeAndBinaryTree"/>
 		</Unit>
-		<Unit filename="D:/C++ Code/DataStructure/Chapter5TreeAndBinaryTree/CMakeLists.txt">
+		<Unit filename="/Users/coding/DataStructureWithCPP/Chapter5TreeAndBinaryTree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

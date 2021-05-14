@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/coding/DataStructureWithCPP/Chapter4String/SeqString.h
+
+/Users/coding/DataStructureWithCPP/Chapter4String/main.cpp
+iostream
+-
+SeqString.h
+/Users/coding/DataStructureWithCPP/Chapter4String/SeqString.h
+

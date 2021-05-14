@@ -58,15 +58,17 @@ int main()
     initListWithHeader(l);
     initListWithHeader(a);
     initListWithHeader(b);
-    int list_a[] = {12,54,72,86,97,264,735,828};
-    int list_b[] = {23,53,57,85,154,375,678,792};
+    int list_a[] = {12,23,72,86,97,375,735,828};
+    int list_b[] = {23,53,57,86,154,375,678,792};
     createListWithTuple(a, list_a);
     createListWithTuple(b, list_b);
     showLinkList(a);
     std::cout<<"\n";
     showLinkList(b);
     std::cout<<"\n";
-    mergeTwoIncreaseListIntoOne(l,a,b);
+//    test();
+//    mergeTwoIncreaseListIntoOne(l,a,b);
+    createListWithPublicNodeInTwoList(a,b,l);
     showLinkList(l);
     return 0;
 }

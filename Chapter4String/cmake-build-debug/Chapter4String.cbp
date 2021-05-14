@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/coding/DataStructureWithCPP/Chapter4String/LinkString.h">
+			<Option target="Chapter4String"/>
+		</Unit>
+		<Unit filename="/Users/coding/DataStructureWithCPP/Chapter4String/SeqString.h">
+			<Option target="Chapter4String"/>
+		</Unit>
 		<Unit filename="/Users/coding/DataStructureWithCPP/Chapter4String/main.cpp">
 			<Option target="Chapter4String"/>
 		</Unit>

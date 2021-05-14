@@ -1,7 +1,7 @@
 //
 // Created by h on 2021-02-23.
 //
-
+#include "SqStack.h"
 // 定义栈
 #define MaxSize 50
 typedef struct{
@@ -17,6 +17,21 @@ typedef struct BiNode{
 // 打印节点值
 void visit(BiNode n){
     std::cout<<n.data<<std::endl;
+}
+
+// 将数组数据输入到二叉树中
+void assignTreeWithTuple(BiTree &t, int[] data, int size){
+    for (int i = 0; i < size; i++){
+
+    }
+}
+
+// 非空判断
+bool isEmpty(BiTree t){
+    if (t->lchild==NULL && t->rchild==NULL){
+        return true;
+    }
+    return false;
 }
 
 // 先序遍历的递归算法
@@ -46,3 +61,20 @@ void AfterOrder(BiTree t){
     }
 }
 
+// 中序遍历转非递归
+void InOrder2(BiTree t){
+    BiTree p=t;
+    SqStack s;
+    initStack(s);
+    while (p || isEmpty(s)){
+        if (p){
+            push(s,p);
+            p = p->lchild;
+        }
+        else{
+            pop(s,p);
+            visit(p);
+            p = p->rchild;
+        }
+    }
+}

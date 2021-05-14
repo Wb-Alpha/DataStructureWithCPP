@@ -7,77 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07fae0bb-3692-4bd6-9133-b5d6b597c0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DataStructureWithCPP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1SeqList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4String/LinkString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4String/SeqString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/DoubleLinkList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/DoubleLinkList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1SeqList/LinkList.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/LinkList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/embed.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/intermediate.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/manifest.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/manifest.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Chapter1SeqList.dir/vc120.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Chapter1SeqList.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Chapter1SeqList.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Chapter1SeqList" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Chapter1SeqList" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter1SeqList/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1SeqList/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Chapter3Stack.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/Chapter3Stack.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/Chapter3Stack.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3StackAndQueue/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3StackAndQueue/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/CMakeFiles/Chapter4String.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/CMakeFiles/Chapter4String.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/Chapter4String.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/Chapter4String.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4String/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4String/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +56,7 @@
       <updated>1615277139056</updated>
       <workItem from="1615277140166" duration="174000" />
       <workItem from="1615582649997" duration="19000" />
+      <workItem from="1616678294911" duration="16000" />
     </task>
     <servers />
   </component>
