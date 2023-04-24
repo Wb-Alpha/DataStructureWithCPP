@@ -1,42 +1,61 @@
-#include <iostream>
-#include "SeqQueue.h"
-#include "SqStack.h"
-#include "LinkStack.h"
+
+#include <vector>
+#include "wchar.h"
+
+#define MAXSIZE 50
+using namespace std;
+typedef struct Stack{
+    char data[MAXSIZE];
+    int top;
+};
+
+void init(Stack stack){
+    stack.top=-1;
+}
+
+void push(Stack stack, char c){
+    stack.top++;
+    stack.data[stack.top] = c;
+}
+
+void pop(Stack stack, char c){
+    stack.data[stack.top] = ' ';
+    stack.top--;
+}
+
+char getTop(Stack stack){
+    return stack.data[stack.top];
+}
+
+vector<int> FindNewspaper(int nSheetCount, int nPage) {
+    // write code here
+    vector<int> result = {0,0,0,0};
+    if (nPage<=nSheetCount*2){
+        if (nPage%2==0){
+            result[0] = nPage/2;
+            result[1] = nPage-1;
+        }else{
+            result[0] = nPage/2+1;
+            result[1] = nPage+1;
+        }
+        result[3] = nSheetCount*4-result[0]*2+1;
+        result[4] = nSheetCount*4-result[0]*2+2;
+    }else{
+        if (nPage%2==0){
+            result[0] = nSheetCount*2-nPage/2+1;
+            result[1] = nPage-1;
+        }else{
+            result[0] = nSheetCount*2-nPage/2;
+            result[1] = nPage+1;
+        }
+        result[3] = result[0]*2-1;
+        result[4] = result[0]*2;
+    }
+    return result;
+}
 
 using namespace std;
 int main() {
-    char data[50];
-    cin>>data;
-    cout<<data<<endl;
-    LinkStack s;
-    initLinkStackWithHeader(s);
-    int length = strlen(data);
-    bool isLackLeft = false;
-    for (int i = 0; i < length; i++){
-        char temp = data[i];
-        if (temp == '('){
-            pushLinkStack(s, 1);
-        }
-        else if (temp == ')'){
-            LinkNode *n = (LinkNode*)malloc(sizeof(LinkNode));
-            bool b = popLinkStack(s, n);
-            if (!b){
-                isLackLeft = true;
-                cout<<"括号匹配错误：缺少'（'"<<endl;
-                break;
-            }
-        }
-        else{
-            cout<<"error:illegal input"<<endl;
-            break;
-        }
-    }
-    if (!isLackLeft && !isEmpty(s)){
-        cout<<"括号匹配错误：缺少'）'"<<endl;
-    }
-    else if(!isLackLeft && isEmpty(s)){
-        cout<<"括号匹配成功！"<<endl;
-    }
-//    string in = "as";
+    FindNewspaper(4,6);
     return 0;
 }

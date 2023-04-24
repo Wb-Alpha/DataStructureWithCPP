@@ -69,7 +69,7 @@ LinkList createListWithTailInsert(LinkList &l, int size, int range){
 }
 
 // 头插法创建单链表
-LinkList createListWithHeadInster(LinkList& l){
+LinkList createListWithHeadInsert(LinkList& l){
     LNode *s;
     int x;
     l = (LinkList)malloc(sizeof(LNode));
@@ -355,7 +355,7 @@ LinkList reverseLinkListOnTheSpot1(LinkList l){
 void sortLinkListIncremental(LinkList &l){
     LNode *p = l->next, *pre;
     LNode *r = p->next;
-    p->next = NULL;
+    p->next = nullptr;
     p = r;
     while (p != NULL){
         r = p->next;
@@ -532,6 +532,19 @@ void createListWithPublicNodeInTwoList(LinkList a, LinkList b, LinkList &t){
     }
 }
 
+LNode* findKValue(LinkList l, int k){
+    LNode *r=l, *t=l;   // 双指针
+    int count=0;    // 计数器
+    while (r->next != nullptr){ // 指针r遍历单链表
+        if (count>=k){  // 如果r已经遍历到了k个元素后，则t开始遍历
+            t = t->next;
+        }else   // 否则继续计数
+            count++;
+        r = r->next;
+    }
+    if (k>count) return nullptr;    //单链表没有k个元素，返回null
+    return t;
+}
 
 
 void test(){
@@ -541,3 +554,15 @@ void test(){
     }while(n<10);
 }
 
+void partition(int a[], int low, int high){
+       int pivot = a[low];
+       while (low<high){
+           while (low<high && )
+       }
+}
+
+void quickSort(int a[], int low, int high){
+    if (low < high){
+        int pivotPos = partition(a, low, high);
+    }
+}

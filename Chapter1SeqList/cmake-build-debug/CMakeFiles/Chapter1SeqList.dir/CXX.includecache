@@ -6,29 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/LinkList.h
-stdlib.h
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/stdlib.h
-cstdlib
--
-
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/SeqList.h
-stdlib.h
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/stdlib.h
-cmath
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/cmath
-clocale
--
-
 /Users/coding/DataStructureWithCPP/Chapter1SeqList/main.cpp
 iostream
--
-cstdlib
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/cstdlib
-ctime
--
-SeqList.h
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/SeqList.h
-LinkList.h
-/Users/coding/DataStructureWithCPP/Chapter1SeqList/LinkList.h
+/Users/coding/DataStructureWithCPP/Chapter1SeqList/iostream
 
